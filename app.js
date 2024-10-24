@@ -5,6 +5,7 @@ const express = require('express')
 const app = express()
 
 const connectDB = require('./db/connect')
+const productsRouter = require('./routes/products-route')
 
 app.use(express.json())
 
@@ -12,7 +13,7 @@ app.get('/', (req, res) => {
 	res.send('<h1>Store API</h1>')
 })
 
-app
+app.use('/products', productsRouter)
 
 const port = process.env.PORT || 3000
 

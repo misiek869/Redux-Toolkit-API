@@ -1,8 +1,6 @@
-const Product = require('../models/product')
+const Product = require('../models/product-model')
 
-const getAllProducts = async (req, res) => {
-	res.status(200).json({ products, nbHits: products.length })
-}
+const getAllProducts = async (req, res) => {}
 
 module.exports = {
 	getAllProducts,
