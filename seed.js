@@ -2,31 +2,27 @@ const Product = require('./models/product-model')
 
 const products = [
 	{
-		id: 'rec1JZlfCIBOPdcT2',
-		title: 'Samsung Galaxy S8',
-		price: '399.99',
-		img: 'https://www.course-api.com/images/cart/phone-1.png',
+		title: 'LEGO ICONS Corvette',
+		price: '99.99',
+		img: 'https://i.postimg.cc/qqsQrrNf/LEGO-10321-ICONS-Corvette-glowne.webp',
 		amount: 1,
 	},
 	{
-		id: 'recB6qcHPxb62YJ75',
-		title: 'Google Pixel',
-		price: '499.99',
-		img: 'https://www.course-api.com/images/cart/phone-2.png',
+		title: 'LEGO Batmobile',
+		price: '139.99',
+		img: 'https://i.postimg.cc/wTkFb6KL/LEGO-76328-DC-Batman.webp',
 		amount: 1,
 	},
 	{
-		id: 'recdRxBsE14Rr2VuJ',
-		title: 'Xiaomi Redmi Note 2',
-		price: '699.99',
-		img: 'https://www.course-api.com/images/cart/phone-3.png',
+		title: 'LEGO Ghostbusters Vehicle',
+		price: '79.99',
+		img: 'https://i.postimg.cc/dtF4BhfJ/LEGO-Creator-ECTO-1-Ghostbusters.webp',
 		amount: 1,
 	},
 	{
-		id: 'recwTo160XST3PIoW',
-		title: 'Samsung Galaxy S7',
-		price: '599.99',
-		img: 'https://www.course-api.com/images/cart/phone-4.png',
+		title: 'LEGO ICONS Porsche 911',
+		price: '119.99',
+		img: 'https://i.postimg.cc/kMKTKQfj/LEGO-Creator-Porsche-911.webp',
 		amount: 1,
 	},
 ]
