@@ -12,6 +12,8 @@ app.get('/', (req, res) => {
 	res.send('<h1>Store API</h1>')
 })
 
+app
+
 const port = process.env.PORT || 3000
 
 const start = async () => {
