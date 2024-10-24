@@ -6,7 +6,7 @@ const connectDB = url => {
 		.connect(url)
 		.then(() => {
 			console.log('Połączono z MongoDB')
-			return seedDatabase() // Wywołanie funkcji seedDatabase
+			return seedDatabase()
 		})
 		.catch(err => console.error('Błąd połączenia z MongoDB:', err))
 }
